@@ -1,4 +1,23 @@
 {
+  "CF141742814": {
+    "contest_id": 750,
+    "language": "GNU C++14",
+    "path": "codeforces/750/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Year and Hurry",
+    "problem_url": "https://codeforces.com/contest/750/problem/A",
+    "submission_id": "CF141742814",
+    "submission_url": "https://codeforces.com/contest/750/submission/141742814",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/05/2022 19:49"
+  },
   "CF142065684": {
     "contest_id": 1367,
     "language": "GNU C++14",
