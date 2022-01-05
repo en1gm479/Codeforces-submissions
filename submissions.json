@@ -1,4 +1,20 @@
 {
+  "CF141696409": {
+    "contest_id": 705,
+    "language": "GNU C++14",
+    "path": "codeforces/705/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hulk",
+    "problem_url": "https://codeforces.com/contest/705/problem/A",
+    "submission_id": "CF141696409",
+    "submission_url": "https://codeforces.com/contest/705/submission/141696409",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/05/2022 10:31"
+  },
   "CF141715474": {
     "contest_id": 469,
     "language": "GNU C++14",
