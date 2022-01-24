@@ -1,4 +1,21 @@
 {
+  "CF143873139": {
+    "contest_id": 233,
+    "language": "GNU C++14",
+    "path": "codeforces/233/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Perfect Permutation",
+    "problem_url": "https://codeforces.com/contest/233/problem/A",
+    "submission_id": "CF143873139",
+    "submission_url": "https://codeforces.com/contest/233/submission/143873139",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/24/2022 18:03"
+  },
   "CF143874427": {
     "contest_id": 228,
     "language": "GNU C++14",
