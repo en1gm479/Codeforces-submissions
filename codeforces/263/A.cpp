@@ -1,31 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
  
-#define rof(a,b,count) for(ll i=a;i<b;i+=count)
-#define trav(a, x)  for(auto& a : x)
-#define display(x) trav(a,x) cout<<a<<" ";cout<<endl;
-#define test() int t; cin>>t; while(t--)
-#define IOS ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)
-#define endl "\n"
-#define ll long long int
-const unsigned int mod = 1000000007;
-
 
 int main(){
-  IOS;
-  int min_ct,xpos,ypos;
-  for(int i=0;i<5;i++){
-    for(int j=0;j<5;j++){
-      int a;
-      cin>>a;
-      if(a==1){
-        xpos=j+1;
-        ypos=i+1;
-      }
+	ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int x=-1,y=-1;
+    for(int i=1;i<=5;i++){
+    	for(int j=1;j<=5;j++){
+    		int a;
+    		cin>>a;
+    		if(a==1){
+    			x=i;y=j;
+    			break;
+    		}
+    	}
+    	if(x!=-1)
+    		break;
     }
-  }
-
-  cout<<abs(3-xpos)+abs(3-ypos);
-  return 0;
+    cout<<(abs(x-3))+(abs(y-3));
+    
+	return 0;
 }
-
