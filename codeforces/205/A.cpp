@@ -10,22 +10,21 @@ int main(){
     
     int n;
     cin>>n;
-    int c;
-    cin>>c;
-    int min=c,order=1;
-    bool flag=true;
-    rof(2,n+1,1){
-    	cin>>c;
-    	if(c<min){
-    		min=c;
-    		order=i;
-    		if(!flag) flag=true;
-    	}
-    	else if(c==min){
-    		flag = false;
+    int a[n],b[n];
+    rof(0,n,1){
+    	cin>>a[i];
+    	b[i]=a[i];
+    }
+    sort(b,b+n);
+    if(b[0]==b[1])
+    	cout<<"Still Rozdil";
+    else{
+    	rof(0,n,1){
+    		if(a[i]==b[0]){
+    			cout<<i+1;
+    			break;
+    		}
     	}
     }
-    if(flag)cout<<order;
-    else cout<<"Still Rozdil";
 	return 0;
 }
