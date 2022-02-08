@@ -1,4 +1,21 @@
 {
+  "CF145607204": {
+    "contest_id": 258,
+    "language": "GNU C++14",
+    "path": "codeforces/258/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Bits",
+    "problem_url": "https://codeforces.com/contest/258/problem/A",
+    "submission_id": "CF145607204",
+    "submission_url": "https://codeforces.com/contest/258/submission/145607204",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/08/2022 11:02"
+  },
   "CF145608581": {
     "contest_id": 239,
     "language": "GNU C++14",
