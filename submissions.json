@@ -1,4 +1,21 @@
 {
+  "CF145722510": {
+    "contest_id": 376,
+    "language": "GNU C++14",
+    "path": "codeforces/376/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lever",
+    "problem_url": "https://codeforces.com/contest/376/problem/A",
+    "submission_id": "CF145722510",
+    "submission_url": "https://codeforces.com/contest/376/submission/145722510",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Feb/09/2022 13:00"
+  },
   "CF145737433": {
     "contest_id": 106,
     "language": "GNU C++14",
