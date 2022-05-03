@@ -20,21 +20,21 @@ int main(){
     if(sz==1) cout<<"Bob "<<s[0]-'a'+1;
     else{
       cout<<"Alice ";
-      // map<char,int>mpp;
-      // for(int i=0;i<26;i++)
-      //   mpp[char('a'+i)]=i+1;
+      map<char,int>mpp;
+      for(int i=0;i<26;i++)
+        mpp[char('a'+i)]=i+1;
       if(sz%2==1){
       int bScore = min(s[0]-'a'+1,s[sz-1]-'a'+1);
       int aScore = max(s[0]-'a'+1,s[sz-1]-'a'+1);
       rof(1,sz-1,1){
-        aScore+=s[i]-'a'+1;
+        aScore+=mpp[s[i]];
       }
         cout<<aScore-bScore;
     }
       else{
         int aScore=0;
         rof(0,sz,1){
-          aScore+=s[i]-'a'+1;
+          aScore+=mpp[s[i]];
         }
           cout<<aScore;
       }
