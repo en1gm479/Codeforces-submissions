@@ -1,4 +1,21 @@
 {
+  "CF172466045": {
+    "contest_id": 664,
+    "language": "GNU C++17",
+    "path": "codeforces/664/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Complicated GCD",
+    "problem_url": "https://codeforces.com/contest/664/problem/A",
+    "submission_id": "CF172466045",
+    "submission_url": "https://codeforces.com/contest/664/submission/172466045",
+    "tags": [
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Sep/17/2022 19:51"
+  },
   "CF172468087": {
     "contest_id": 1617,
     "language": "GNU C++17",
